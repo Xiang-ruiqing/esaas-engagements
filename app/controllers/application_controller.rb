@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  before_filter :logged_in?
+  before_action :logged_in?
 
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
